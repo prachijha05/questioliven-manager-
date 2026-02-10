@@ -1,20 +1,20 @@
-📘 Interactive Question Management Sheet
+📘** Interactive Question Management Sheet**
 
 A modern, interactive single-page web application to manage a hierarchical set of DSA questions organized by Topics → Sub-topics → Questions, inspired by platforms like Codolio / Striver A2Z Sheet.
 
-🚀 Live Demo
+🚀** Live Demo**
 
-🔗 Deployment Link
+🔗** Deployment Link**
 👉 (Paste your Vercel URL here)
 Example:
 
 https://question-manager-xxx.vercel.app
 
 
-🔗 GitHub Repository
+🔗** GitHub Repository**
 👉 https://github.com/prachijha05/question-manager
 
-🧠 Problem Statement
+🧠** Problem Statement**
 
 The goal of this project is to build an interactive question tracking sheet that allows users to:
 
@@ -28,7 +28,7 @@ Perform full CRUD operations
 
 Persist data without a backend database
 
-✨ Features Implemented
+✨ **Features Implemented**
 ✅ Core Functional Requirements
 📌 Topic Management
 
