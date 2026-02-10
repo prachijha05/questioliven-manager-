@@ -115,23 +115,6 @@ Structure is compatible with the following API:
 curl --location \
 'https://node.codolio.com/api/question-tracker/v1/sheet/public/get-sheet-by-slug/striver-sde-sheet'
 
-▶️ How to Run Locally
-# Clone the repository
-git clone https://github.com/prachijha05/question-manager.git
-
-# Navigate to project directory
-cd question-manager
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-
-Open in browser:
-
-http://localhost:5173
 
 📌 Assumptions
 
