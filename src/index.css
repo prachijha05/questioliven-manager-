@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===============================
+   GLOBAL THEME
+================================ */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: radial-gradient(
+      circle at top,
+      #020617 0%,
+      #020617 40%,
+      #020617 100%
+    ),
+    linear-gradient(180deg, #020617, #020617);
+
+  color: #f9fafb;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* ===============================
+   SMOOTH SCROLL
+================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===============================
+   BETTER TEXT RENDERING
+================================ */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===============================
+   CUSTOM SCROLLBAR
+================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #374151,
+    #1f2933
+  );
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #4b5563,
+    #374151
+  );
+}
+
+/* ===============================
+   SELECTION COLOR
+================================ */
+
+::selection {
+  background: rgba(34, 197, 94, 0.35);
+  color: #ffffff;
+}
+
+/* ===============================
+   LINK RESET
+================================ */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===============================
+   INPUT / BUTTON RESET
+================================ */
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+/* ===============================
+   GLASS EFFECT SUPPORT
+================================ */
+
+.backdrop-blur-xl {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
