@@ -1,26 +1,27 @@
-📘  # **Interactive Question Management Sheet**
+📘****Interactive Question Management Sheet****
 
-A modern, interactive single-page web application to manage a hierarchical set of DSA questions organized by Topics → Sub-topics → Questions, inspired by platforms like Codolio / Striver A2Z Sheet.
+A modern, interactive single-page web application to manage a hierarchical set of DSA questions organized by
+Topics → Sub-topics → Questions, inspired by platforms like Codolio / Striver A2Z Sheet.
 
-🚀## Live Demo
+🚀 Live Demo
+🔗 Deployment Link
 
-🔗** Deployment Link**
-👉 (Paste your Vercel URL here)
+👉 Paste your Vercel URL here
 Example:
 
 https://question-manager-xxx.vercel.app
 
+🔗 GitHub Repository
 
-🔗** GitHub Repository**
 👉 https://github.com/prachijha05/question-manager
 
-🧠** Problem Statement**
+🧠 Problem Statement
 
 The goal of this project is to build an interactive question tracking sheet that allows users to:
 
 Organize questions by topics and sub-topics
 
-Track solved/unsolved questions
+Track solved / unsolved questions
 
 Reorder items using drag and drop
 
@@ -28,7 +29,7 @@ Perform full CRUD operations
 
 Persist data without a backend database
 
-✨ **Features Implemented**
+✨ Features Implemented
 ✅ Core Functional Requirements
 📌 Topic Management
 
@@ -50,7 +51,7 @@ Flexible creation through question addition
 
 🗑 Delete questions
 
-☑ Mark questions as solved/unsolved
+☑ Mark questions as solved / unsolved
 
 🔗 Open problem link in a new tab
 
@@ -66,11 +67,11 @@ Order is persisted across reloads
 
 💾 Persistent state using localStorage
 
-🧩 Modal-based Add/Edit UX
+🧩 Modal-based Add/Edit user experience
 
 🎨 Clean, dark-themed UI inspired by Codolio
 
-⚡ Fast performance with Vite
+⚡ Fast performance using Vite
 
 🛠 Tech Stack
 Frontend
@@ -109,16 +110,16 @@ Initial data is loaded from a static JSON file:
 src/data/sheet.json
 
 
-Structure is compatible with:
+Structure is compatible with the following API:
 
 curl --location \
 'https://node.codolio.com/api/question-tracker/v1/sheet/public/get-sheet-by-slug/striver-sde-sheet'
 
 ▶️ How to Run Locally
-# Clone the repo
+# Clone the repository
 git clone https://github.com/prachijha05/question-manager.git
 
-# Go to project directory
+# Navigate to project directory
 cd question-manager
 
 # Install dependencies
@@ -128,28 +129,34 @@ npm install
 npm run dev
 
 
-Open:
+Open in browser:
 
 http://localhost:5173
 
 📌 Assumptions
 
-Single-page application
+The application is a single-page web app
 
-No backend database required
+No backend database is required
 
-UI design flexibility allowed
+UI design flexibility is allowed
 
-All operations handled client-side
+All operations are handled client-side
 
 🏁 Submission Checklist
 
 ✅ React SPA
-✅ Tailwind UI
+
+✅ Tailwind CSS UI
+
 ✅ Zustand state management
+
 ✅ CRUD operations
-✅ Drag & drop reorder
+
+✅ Drag & drop reordering
+
 ✅ Local persistence
+
 ✅ Deployed on Vercel
 
 👩‍💻 Author
@@ -157,4 +164,4 @@ All operations handled client-side
 Prachi Jha
 GitHub: https://github.com/prachijha05
 
-⭐ If you like this project, feel free to star the repo!
+⭐ If you like this project, feel free to star the repository!
